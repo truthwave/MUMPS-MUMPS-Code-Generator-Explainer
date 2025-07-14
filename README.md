@@ -6,54 +6,57 @@
 
 ## 📌 Overview
 
-**MUMPS Code Generator & Explainer** is a GPT-powered assistant that helps generate and explain MUMPS (M Language) code, commonly used in medical information systems and financial systems.
+**MUMPS Code Generator & Explainer** is a GPT-powered assistant designed to help developers and engineers generate and understand MUMPS (M Language) code, widely used in healthcare information systems and financial systems.
 
-It’s designed for anyone who:
+It’s perfect for:
 
-- Struggles to read old MUMPS code they wrote years ago
-- Has inherited system maintenance but can’t understand the code
-- Wants to learn MUMPS from scratch
+- Developers struggling to read legacy MUMPS code
+- Engineers maintaining systems they didn’t originally build
+- Beginners who want to learn MUMPS from scratch
 
-This tool is suitable for both beginners and engineers maintaining legacy systems.
+This tool **saves time, reduces frustration, and helps both beginners and legacy system engineers confidently work with MUMPS.**
 
 ---
 
-## ⚙️ Features
+## ⚙️ Key Features
 
-✅ **Automatic MUMPS Code Generation**
+- ✅ **Automatic MUMPS Code Generation**
+  - Generates MUMPS code from natural language instructions
+  - Uses standard MUMPS syntax
+  - Adds comments to improve understanding
 
-- Generates MUMPS code based on natural language instructions
-- Outputs standard MUMPS syntax
-- Includes comments for better understanding
+- ✅ **Explanation of Existing MUMPS Code**
+  - Explains code logic, global structures, and variable meanings
+  - Focuses on globals, loops, conditionals, and other key concepts
+  - Explanations available in Japanese (English coming soon)
 
-✅ **Explanation of Existing MUMPS Code**
+- ✅ **Grammar and Syntax Guides**
+  - Clarifies differences between `$O` and `$N`
+  - Provides comparisons with other languages
 
-- Explains code structure and variables in plain Japanese (or English in future updates)
-- Focuses on global variables, loops, conditionals, and other key concepts
-
-✅ **Grammar and Syntax Guides**
-
-- Answers common questions like the difference between `$O` and `$N`
-- Provides comparisons with other programming languages
-
-✅ **Clarifies Differences with Caché/ObjectScript**
-
-- Explains differences between standard MUMPS syntax and proprietary extensions in Caché
+- ✅ **Clear Distinction from Caché/ObjectScript**
+  - Explains differences between standard MUMPS and proprietary Caché extensions
 
 ---
 
 ## 🎯 Target Users
 
-- Developers or maintenance engineers in healthcare information systems (HIS)
-- Engineers maintaining legacy financial systems
+- Developers or maintainers in healthcare IT (HIS)
+- Engineers working on legacy financial systems
 - Programmers new to MUMPS
-- Technical professionals looking to learn MUMPS fundamentals
+- Technical professionals wanting to learn MUMPS fundamentals
 
 ---
 
 ## 💻 Usage Examples
 
+Below are example prompts you can ask the GPT:
+
+---
+
 ### Example Input (Natural Language → MUMPS Code Generation)
+
+```
 
 Please create MUMPS code to store employee information in the ^STAFF global.
 Fields: ID, Name, Department.
@@ -124,7 +127,7 @@ What’s the difference between $O and $N in MUMPS?
 >
 > **\$N (Next)**
 >
-> * Often used for numeric subscripts
+> * Often used with numeric subscripts
 > * Retrieves the next numeric index
 >
 > **Example:**
@@ -134,7 +137,7 @@ What’s the difference between $O and $N in MUMPS?
 > FOR  SET X=$O(^DATA(X)) QUIT:X=""  WRITE X,!
 > ```
 >
-> → `$O` can handle both numeric and string subscripts, and is generally preferred over `$N` in modern MUMPS code.
+> → `$O` handles both numeric and string subscripts and is generally preferred in modern MUMPS code.
 
 ---
 
@@ -142,116 +145,123 @@ What’s the difference between $O and $N in MUMPS?
 
 * **Custom Prompt Engineering**
 
-  * Tailored prompts to handle MUMPS’ unique syntax and global variable structures
-  * Always provides comments and explanations for beginner understanding
+  * Tailored prompts for MUMPS’ unique syntax and global data structures
+  * Always includes explanatory comments for better understanding
 
-* **Clear Distinction from Caché/ObjectScript**
+* **Clear Differentiation from Caché/ObjectScript**
 
-  * Explicitly differentiates standard MUMPS from proprietary extensions
+  * Explicitly explains differences between standard MUMPS and proprietary extensions
 
 * **Safety Considerations**
 
-  * Warns users not to input personal or medical data
-  * Advises that generated code is for example purposes only and should be reviewed before production use
+  * Warns users not to enter personal or real medical data
+  * Emphasizes that generated code should be reviewed before production use
 
 * **Learning-Oriented Design**
 
-  * Not only generates code, but also serves as a learning tool for acquiring MUMPS knowledge
+  * Doubles as a training tool for learning MUMPS
 
 ---
 
 ## ⚠️ Disclaimer
 
-* This tool is intended for learning and reference purposes only.
+* This tool is intended for learning and reference only.
 * Always have real system implementations reviewed by experts before deploying code.
-* Do not input personal or real medical data.
+* Do not input personal or confidential medical data.
 
 ---
 
-## 🚀 Future Plans
+## 🌐 Demo
 
-* Improved English-language explanations
-* Detailed use-case examples for medical systems
-* Integration with global variable structure visualizers
-* Explanations of common error codes
+[View MUMPS Code Generator & Explainer on ChatGPT](https://chatgpt.com/g/g-686c88e3d0588191bee8d7cf3f755af7-mumpskotosheng-cheng-jie-shuo-asisutanto)
 
 ---
 
-## License
+## 👨‍💻 My Role
+
+I designed and developed this GPT, including:
+
+* Prompt engineering focused on MUMPS syntax
+* UX design to simplify interaction
+* Testing and refining explanations for clarity
+
+---
+
+## 📄 License
 
 MIT License
 
 ---
 
-> “No more fear of old and complex MUMPS code.”
+---
 
-[View MUMPS Code Generator & Explainer on ChatGPT](https://chatgpt.com/g/g-686c88e3d0588191bee8d7cf3f755af7-mumpskotosheng-cheng-jie-shuo-asisutanto)
-
-
-
-```markdown
 # MUMPS Code Generator & Explainer
 
 「古くて難しいMUMPSのコードも、もう怖くない。」
 
 ---
 
-## 概要 / Overview
+## 📌 概要 / Overview
 
-**MUMPS Code Generator & Explainer** は、医療情報システムや金融システムなどで使われる  
+**MUMPS Code Generator & Explainer** は、医療情報システムや金融システムなどで使われる
 MUMPS（M言語）のコード生成と解説を支援する GPT アシスタントです。
 
-「昔書いた MUMPS のコードが読めない」  
-「保守を引き継いだけど理解できない」  
-「MUMPS をゼロから学びたい」
+以下のような方に最適です：
 
-そんな悩みに対応し、MUMPS 初心者からレガシー保守担当者まで幅広く活用いただけます。
+* 昔書いた MUMPS のコードが読めない方
+* 保守を引き継いだが理解に苦しんでいる方
+* MUMPS を基礎から学びたい方
 
----
-
-## 主な機能 / Features
-
-✅ **MUMPSコード自動生成**
-
-- ユーザーの自然言語の指示をもとに
-- 標準的な MUMPS 構文でコードを出力
-- コメント付きで理解を助ける
-
-✅ **既存 MUMPS コードの解説**
-
-- 提示されたコードの構造や変数の意味を日本語で説明
-- グローバル変数の構造やループ処理、条件分岐などに重点
-
-✅ **MUMPS の文法解説**
-
-- $O と $N の違いなど、よくある疑問に具体例で回答
-- 他のプログラミング言語との比較も交えて解説
-
-✅ **Caché/ObjectScript との違いを明示**
-
-- MUMPS 固有の構文と Caché 独自拡張の差異を解説
+このツールにより **作業時間短縮・理解促進・レガシー保守の不安軽減** が可能になります。
 
 ---
 
-## 想定ユーザー / Target Users
+## ⚙️ 主な機能 / Features
 
-- 医療情報システム（HIS）の開発者や保守担当者
-- 金融システムのレガシー保守を担当するエンジニア
-- MUMPS に初めて触れるプログラマー
-- MUMPS の基礎を学びたい技術者
+* ✅ **MUMPSコード自動生成**
+
+  * 自然言語の指示から MUMPS コードを生成
+  * 標準的な構文を用いて出力
+  * コメントを付加し理解を助ける
+
+* ✅ **既存 MUMPS コードの解説**
+
+  * 提示されたコードの構造や変数の意味を日本語で解説
+  * グローバル変数やループ構造、条件分岐などにフォーカス
+  * 英語での解説は今後対応予定
+
+* ✅ **文法・構文の解説**
+
+  * \$O と \$N の違いなど、よくある疑問を解説
+  * 他のプログラミング言語との比較も提供
+
+* ✅ **Caché/ObjectScript との違いを明示**
+
+  * 標準MUMPS構文と独自拡張との違いを説明
 
 ---
 
-## 使用例 / Usage Examples
+## 🎯 想定ユーザー / Target Users
+
+* 医療情報システム（HIS）の開発者・保守担当者
+* 金融系レガシーシステムの保守エンジニア
+* MUMPS初学者
+* MUMPSの基礎を学びたい技術者
+
+---
+
+## 💻 使用例 / Usage Examples
+
+以下は GPT への例として使えるプロンプトです：
+
+---
 
 ### 入力例（自然言語 → MUMPSコード生成）
 
 ```
-
 職員情報をグローバル ^STAFF に保存する MUMPS コードを作ってください。
 項目は ID、氏名、部署 です。
-
-````
+```
 
 ---
 
@@ -268,7 +278,7 @@ SET DEPT="総務"
 SET ^STAFF(ID,"NAME")=NAME
 SET ^STAFF(ID,"DEPT")=DEPT
 WRITE "保存が完了しました",!
-````
+```
 
 ---
 
@@ -286,8 +296,8 @@ WRITE "保存が完了しました",!
 > ✅ 解説：
 >
 > このコードは、グローバル変数 **^PATIENT** の中に
-> 患者 ID「1234」の MED というサブノードを作り、
-> その値として「250」を格納しています。
+> 患者ID「1234」の MED というサブノードを作成し、
+> そこに「250」という値を格納しています。
 >
 > **想定される意味：**
 >
@@ -295,7 +305,7 @@ WRITE "保存が完了しました",!
 > * 投薬量
 > * 血圧などの数値データ
 >
-> どんな意味を持たせるかはシステム設計によります。
+> 実際の意味はシステム設計によります。
 
 ---
 
@@ -319,7 +329,7 @@ $O と $N の違いを教えてください。
 > **\$N（Next）**
 >
 > * 数値のインデックスに対して使うことが多い
-> * 数字の次のインデックスを取得
+> * 次の数値インデックスを取得
 >
 > **例：**
 >
@@ -328,56 +338,62 @@ $O と $N の違いを教えてください。
 > FOR  SET X=$O(^DATA(X)) QUIT:X=""  WRITE X,!
 > ```
 >
-> → \$O は文字列や数値どちらも扱えるが、
-> 最近では \$N より \$O が推奨されることが多いです。
+> → \$O は文字列も数値も扱えるため、近年は \$N より \$O の使用が推奨されています。
 
 ---
 
-## 技術的ポイント / Technical Highlights
+## 🛠 技術的ポイント / Technical Highlights
 
 * **カスタムプロンプト設計**
 
-  * MUMPS の独特な構文やグローバル変数構造を的確に取り扱うようプロンプトを最適化
-  * 初心者でも理解できるよう、必ずコメントや解説を付加
+  * MUMPS の独特な構文やグローバル構造を扱うための最適化
+  * 初学者でも理解しやすい解説を自動付与
 
-* **Caché/ObjectScript との違いを明確化**
+* **Caché/ObjectScript との違いを明示**
 
-  * MUMPS の純粋構文と、Caché 独自拡張を明示的に区別
+  * 標準構文と独自拡張の差を明確に説明
 
-* **安全性への配慮**
+* **安全設計**
 
-  * 個人情報や医療データを生成・解説しないよう注意喚起
-  * 「このコードは例であり、導入前に必ず確認を」とユーザーに伝える
+  * 個人情報や医療データの入力を避けるよう注意喚起
+  * コードは例であり、実装前に必ず確認する旨を伝達
 
-* **学習支援に特化**
+* **学習支援機能**
 
-  * 単なるコード生成に留まらず、MUMPS の知識習得ツールとしても活用可能
-
----
-
-## 注意事項 / Disclaimer
-
-* 本ツールは MUMPS の学習および参考情報提供を目的としています。
-* 実際のシステム導入・保守にあたっては、必ず専門家のレビューを受けてください。
-* 個人情報や実データは入力しないでください。
+  * コード生成だけでなく、学習ツールとしても活用可能
 
 ---
 
-## 今後の展望 / Future Plans
+## ⚠️ 注意事項 / Disclaimer
 
-* 英語版の出力精度向上
-* 医療システムにおける具体的なユースケース解説機能
-* グローバル構造ビジュアライザーとの連携
-* よくあるエラーコードの解説機能
+* 本ツールは学習・参考用です。
+* 実際のシステム導入時は専門家によるレビューが必須です。
+* 個人情報や実際の医療データは入力しないでください。
 
 ---
 
-## ライセンス / License
+## 🌐 デモ / Demo
+
+[ChatGPTで MUMPS Code Generator & Explainer を見る](https://chatgpt.com/g/g-686c88e3d0588191bee8d7cf3f755af7-mumpskotosheng-cheng-jie-shuo-asisutanto)
+
+---
+
+## 👨‍💻 開発者 / My Role
+
+本ツールの以下を全て担当しました：
+
+* MUMPS構文に特化したプロンプト設計
+* 操作を簡単にするUX設計
+* 出力精度と解説内容のブラッシュアップ
+
+---
+
+## 📄 ライセンス / License
 
 MIT License
 
 ---
 
-「古くて難しい MUMPS のコードも、もう怖くない。」
+> 「古くて難しい MUMPS のコードも、もう怖くない。」
 
-→https://chatgpt.com/g/g-686c88e3d0588191bee8d7cf3f755af7-mumpskotosheng-cheng-jie-shuo-asisutanto
+```
