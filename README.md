@@ -55,6 +55,138 @@ This tool is suitable for both beginners and engineers maintaining legacy system
 
 ### Example Input (Natural Language → MUMPS Code Generation)
 
+Please create MUMPS code to store employee information in the ^STAFF global.
+Fields: ID, Name, Department.
+
+````
+
+---
+
+### GPT Example Output
+
+```mumps
+; Example MUMPS code to store employee information
+NEW ID,NAME,DEPT
+SET ID=1001
+SET NAME="Taro Yamada"
+SET DEPT="General Affairs"
+
+; Save to ^STAFF global
+SET ^STAFF(ID,"NAME")=NAME
+SET ^STAFF(ID,"DEPT")=DEPT
+WRITE "Data has been saved",!
+````
+
+---
+
+### Example Input (Explaining Existing Code)
+
+```
+^PATIENT(1234,"MED")=250
+What does this MUMPS code do?
+```
+
+---
+
+### GPT Example Output
+
+> ✅ Explanation:
+>
+> This line creates a sub-node under the global variable **^PATIENT**
+> for patient ID “1234,” storing the value “250” under the “MED” node.
+>
+> **Possible meanings:**
+>
+> * Medical expenses
+> * Dosage amount
+> * Numeric data like blood pressure
+>
+> The exact meaning depends on the system’s design.
+
+---
+
+### Example Input (Grammar Question)
+
+```
+What’s the difference between $O and $N in MUMPS?
+```
+
+---
+
+### GPT Example Output
+
+> ✅ Explanation:
+>
+> **\$O (Order)**
+>
+> * Retrieves the next key in a global or local array
+> * Traverses in ascending order
+>
+> **\$N (Next)**
+>
+> * Often used for numeric subscripts
+> * Retrieves the next numeric index
+>
+> **Example:**
+>
+> ```mumps
+> SET X=""
+> FOR  SET X=$O(^DATA(X)) QUIT:X=""  WRITE X,!
+> ```
+>
+> → `$O` can handle both numeric and string subscripts, and is generally preferred over `$N` in modern MUMPS code.
+
+---
+
+## 🛠 Technical Highlights
+
+* **Custom Prompt Engineering**
+
+  * Tailored prompts to handle MUMPS’ unique syntax and global variable structures
+  * Always provides comments and explanations for beginner understanding
+
+* **Clear Distinction from Caché/ObjectScript**
+
+  * Explicitly differentiates standard MUMPS from proprietary extensions
+
+* **Safety Considerations**
+
+  * Warns users not to input personal or medical data
+  * Advises that generated code is for example purposes only and should be reviewed before production use
+
+* **Learning-Oriented Design**
+
+  * Not only generates code, but also serves as a learning tool for acquiring MUMPS knowledge
+
+---
+
+## ⚠️ Disclaimer
+
+* This tool is intended for learning and reference purposes only.
+* Always have real system implementations reviewed by experts before deploying code.
+* Do not input personal or real medical data.
+
+---
+
+## 🚀 Future Plans
+
+* Improved English-language explanations
+* Detailed use-case examples for medical systems
+* Integration with global variable structure visualizers
+* Explanations of common error codes
+
+---
+
+## License
+
+MIT License
+
+---
+
+> “No more fear of old and complex MUMPS code.”
+
+[View MUMPS Code Generator & Explainer on ChatGPT](https://chatgpt.com/g/g-686c88e3d0588191bee8d7cf3f755af7-mumpskotosheng-cheng-jie-shuo-asisutanto)
+
 
 
 ```markdown
