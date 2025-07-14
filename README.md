@@ -1,12 +1,61 @@
-素晴らしい！では、いただいた README をベースに、**さらに詳しく充実した GitHub README** の例をご提案します。
+# MUMPS Code Generator & Explainer
 
-以下は、**ポートフォリオ掲載にも強くアピールできる内容**で、Markdown 形式でそのままコピペ可能です。
-技術者が見たときに「お、作り込んでるな！」と思えるように詳細を加えています。
-必要に応じて修正してご利用ください！
+> “No more fear of old and complex MUMPS code.”
 
 ---
 
-# ✅ GitHub README（詳しめ版）
+## 📌 Overview
+
+**MUMPS Code Generator & Explainer** is a GPT-powered assistant that helps generate and explain MUMPS (M Language) code, commonly used in medical information systems and financial systems.
+
+It’s designed for anyone who:
+
+- Struggles to read old MUMPS code they wrote years ago
+- Has inherited system maintenance but can’t understand the code
+- Wants to learn MUMPS from scratch
+
+This tool is suitable for both beginners and engineers maintaining legacy systems.
+
+---
+
+## ⚙️ Features
+
+✅ **Automatic MUMPS Code Generation**
+
+- Generates MUMPS code based on natural language instructions
+- Outputs standard MUMPS syntax
+- Includes comments for better understanding
+
+✅ **Explanation of Existing MUMPS Code**
+
+- Explains code structure and variables in plain Japanese (or English in future updates)
+- Focuses on global variables, loops, conditionals, and other key concepts
+
+✅ **Grammar and Syntax Guides**
+
+- Answers common questions like the difference between `$O` and `$N`
+- Provides comparisons with other programming languages
+
+✅ **Clarifies Differences with Caché/ObjectScript**
+
+- Explains differences between standard MUMPS syntax and proprietary extensions in Caché
+
+---
+
+## 🎯 Target Users
+
+- Developers or maintenance engineers in healthcare information systems (HIS)
+- Engineers maintaining legacy financial systems
+- Programmers new to MUMPS
+- Technical professionals looking to learn MUMPS fundamentals
+
+---
+
+## 💻 Usage Examples
+
+### Example Input (Natural Language → MUMPS Code Generation)
+
+
 
 ```markdown
 # MUMPS Code Generator & Explainer
