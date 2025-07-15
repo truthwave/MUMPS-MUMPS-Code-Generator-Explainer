@@ -201,9 +201,7 @@ MIT License
 
 ---
 
-> **“Old MUMPS code doesn’t have to be scary anymore.”**
-
-```
+> **“Old MUMPS code doesn’t have to be scary anymore.”*
 
 ---
 
