@@ -1,3 +1,8 @@
+<p>
+ <img width="1536" height="1024" alt="古くて難しい MUMPS のコードも、もう怖くない。" src="https://github.com/user-attachments/assets/8d3e63e0-568e-4876-8343-49815fd1b508" />
+
+</p>
+
 # MUMPS Code Generator & Explainer
 
 「古くて難しいMUMPSのコードも、もう怖くない。」
