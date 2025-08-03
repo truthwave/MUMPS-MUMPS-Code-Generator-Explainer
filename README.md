@@ -203,3 +203,9 @@ MIT License
 ---
 
 > 「古くて難しい MUMPS のコードも、もう怖くない。」
+
+## 🧑‍💻 作者
+
+[ともプログラム便り](https://github.com/TomoProgrammingDayori)
+
+ポートフォリオやAIツール開発に関する情報もぜひご覧ください！
