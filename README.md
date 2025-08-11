@@ -36,6 +36,16 @@
 
 ---
 
+## 📸 **体験イメージ**
+
+[MUMPSコードの解説（職員一覧表示）](https://github.com/TomoProgrammingDayori/MUMPS-MUMPS-Code-Generator-Explainer/blob/main/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88/MUMPS%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AE%E8%A7%A3%E8%AA%AC%EF%BC%88%E8%81%B7%E5%93%A1%E4%B8%80%E8%A6%A7%E8%A1%A8%E7%A4%BA%EF%BC%89.jpeg)
+
+[MUMPSコード例（日付表示）](https://github.com/TomoProgrammingDayori/MUMPS-MUMPS-Code-Generator-Explainer/blob/main/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88/MUMPS%E3%82%B3%E3%83%BC%E3%83%89%E4%BE%8B%EF%BC%88%E6%97%A5%E4%BB%98%E8%A1%A8%E7%A4%BA%EF%BC%89.jpeg)
+
+[MUMPSコード例（職員一覧表示）](https://github.com/TomoProgrammingDayori/MUMPS-MUMPS-Code-Generator-Explainer/blob/main/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88/MUMPS%E3%82%B3%E3%83%BC%E3%83%89%E4%BE%8B%EF%BC%88%E8%81%B7%E5%93%A1%E4%B8%80%E8%A6%A7%E8%A1%A8%E7%A4%BA%EF%BC%89.jpeg)
+
+---
+
 ## 🎯 想定ユーザー / Target Users
 
 * 医療情報システム（HIS）の開発者・保守担当者
