@@ -1,5 +1,4 @@
-<p>
-
+<p align="center">
 <img width="1536" height="1024" alt="古くて難しい MUMPS のコードも、もう怖くない。" src="https://github.com/user-attachments/assets/3f132036-c3f8-48d9-b081-43b70e88e86f" />
 
 </p>
@@ -178,6 +177,8 @@ $O と $N の違いを教えてください。
 
 ポートフォリオやAIツール開発に関する情報もぜひご覧ください！
 
+## お気軽にご連絡ください
+[📩 ご相談・お見積もりはこちら](mailto:realmadrid71214591@gmail.com)
 
 ---
 
