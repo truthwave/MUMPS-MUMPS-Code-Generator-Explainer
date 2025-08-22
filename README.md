@@ -36,12 +36,16 @@
 ---
 
 ## 📸 **体験イメージ**
+![デモ動画](https://github.com/TomoProgrammingDayori/MUMPS-MUMPS-Code-Generator-Explainer/blob/main/%E8%B3%87%E6%96%99/%E3%83%87%E3%83%A2%E5%8B%95%E7%94%BB.gif)
 
-[MUMPSコードの解説（職員一覧表示）](https://github.com/TomoProgrammingDayori/MUMPS-MUMPS-Code-Generator-Explainer/blob/main/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88/MUMPS%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AE%E8%A7%A3%E8%AA%AC%EF%BC%88%E8%81%B7%E5%93%A1%E4%B8%80%E8%A6%A7%E8%A1%A8%E7%A4%BA%EF%BC%89.jpeg)
+![MUMPS言語の概要と特徴](https://github.com/TomoProgrammingDayori/MUMPS-MUMPS-Code-Generator-Explainer/blob/main/%E8%B3%87%E6%96%99/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88/MUMPS%E8%A8%80%E8%AA%9E%E3%81%AE%E6%A6%82%E8%A6%81%E3%81%A8%E7%89%B9%E5%BE%B4.jpeg)
 
-[MUMPSコード例（日付表示）](https://github.com/TomoProgrammingDayori/MUMPS-MUMPS-Code-Generator-Explainer/blob/main/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88/MUMPS%E3%82%B3%E3%83%BC%E3%83%89%E4%BE%8B%EF%BC%88%E6%97%A5%E4%BB%98%E8%A1%A8%E7%A4%BA%EF%BC%89.jpeg)
+![MUMPSコード例（職員一覧表示）](https://github.com/TomoProgrammingDayori/MUMPS-MUMPS-Code-Generator-Explainer/blob/main/%E8%B3%87%E6%96%99/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88/MUMPS%E3%82%B3%E3%83%BC%E3%83%89%E4%BE%8B%EF%BC%88%E8%81%B7%E5%93%A1%E4%B8%80%E8%A6%A7%E8%A1%A8%E7%A4%BA%EF%BC%89.jpeg)
 
-[MUMPSコード例（職員一覧表示）](https://github.com/TomoProgrammingDayori/MUMPS-MUMPS-Code-Generator-Explainer/blob/main/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88/MUMPS%E3%82%B3%E3%83%BC%E3%83%89%E4%BE%8B%EF%BC%88%E8%81%B7%E5%93%A1%E4%B8%80%E8%A6%A7%E8%A1%A8%E7%A4%BA%EF%BC%89.jpeg)
+![MUMPSコードの解説（職員一覧表示）](https://github.com/TomoProgrammingDayori/MUMPS-MUMPS-Code-Generator-Explainer/blob/main/%E8%B3%87%E6%96%99/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88/MUMPS%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AE%E8%A7%A3%E8%AA%AC%EF%BC%88%E8%81%B7%E5%93%A1%E4%B8%80%E8%A6%A7%E8%A1%A8%E7%A4%BA%EF%BC%89.jpeg)
+
+![MUMPSコード例（日付表示）](https://github.com/TomoProgrammingDayori/MUMPS-MUMPS-Code-Generator-Explainer/blob/main/%E8%B3%87%E6%96%99/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88/MUMPS%E3%82%B3%E3%83%BC%E3%83%89%E4%BE%8B%EF%BC%88%E6%97%A5%E4%BB%98%E8%A1%A8%E7%A4%BA%EF%BC%89.jpeg)
+
 
 ---
 
