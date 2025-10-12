@@ -4,6 +4,11 @@
 > Legacy code can be neutralized through understanding.
 > **Turn MUMPS back into an asset.**
 
+<p align="center">
+<img width="1536" height="1024" alt="MUMPS Code Generator" src="https://github.com/user-attachments/assets/b678caa6-0eb1-4e07-93f1-ca1de906d2b6" />
+
+</p>
+
 ---
 
 ## Experience (Three Examples Sufficient)
