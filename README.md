@@ -7,9 +7,7 @@
 
 <p align="center">
 <img width="1536" height="1024" alt="古くて難しい MUMPS のコードも、もう怖くない。" src="https://github.com/user-attachments/assets/3f132036-c3f8-48d9-b081-43b70e88e86f" />
-
 </p>
-
 
 ---
 
